@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Thực Hành Git & GitHub - Vũ Hải Luân - 1822041389</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+        }
+        body {
+            font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #1a5276;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #1a5276;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #2e86c1;
+            font-size: 18px;
+            border-left: 5px solid #2e86c1;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        .info-card {
+            background-color: #ebf5fb;
+            border: 1px solid #aed6f1;
+            border-radius: 6px;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+        }
+        .info-card table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-card td {
+            padding: 6px 10px;
+            font-size: 15px;
+        }
+        .info-card td.label {
+            font-weight: bold;
+            color: #1b4f72;
+            width: 25%;
+        }
+        .info-card a {
+            color: #1a5276;
+            word-break: break-all;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .info-card a:hover {
+            text-decoration: underline;
+        }
+        .command-box {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 12px 16px;
+            border-radius: 5px;
+            font-family: "Consolas", "Courier New", monospace;
+            font-size: 13.5px;
+            margin: 10px 0;
+            overflow-x: auto;
+            border-left: 4px solid #2e86c1;
+        }
+        .command-box code {
+            color: #9cdcfe;
+        }
+        .explain-box {
+            background-color: #f4f6f7;
+            border-left: 4px solid #27ae60;
+            padding: 10px 14px;
+            margin: 10px 0 18px 0;
+            font-size: 14px;
+        }
+        .explain-box strong {
+            color: #1e8449;
+        }
+        .image-placeholder {
+            border: 2px dashed #bdc3c7;
+            background-color: #fbfcfc;
+            border-radius: 6px;
+            padding: 20px;
+            text-align: center;
+            color: #7f8c8d;
+            margin: 12px 0 20px 0;
+            font-style: italic;
+        }
+        .image-placeholder .tip {
+            font-size: 12px;
+            color: #e67e22;
+            margin-top: 5px;
+        }
+        .print-btn {
+            display: block;
+            margin: 0 auto 20px auto;
+            padding: 10px 24px;
+            background-color: #2e86c1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .print-btn:hover {
+            background-color: #1a5276;
+        }
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            .print-btn {
+                display: none;
+            }
+            .command-box {
+                background-color: #f4f6f7;
+                color: #2c3e50;
+                border: 1px solid #d5dbdb;
+            }
+            .command-box code {
+                color: #1a5276;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <button class="print-btn" onclick="window.print()">🖨️ In Báo Cáo / Xuất PDF (Ctrl + P)</button>
+
+    <div class="container">
+        <h1>BÁO CÁO THỰC HÀNH QUẢN LÝ MÃ NGUỒN VỚI GIT & GITHUB</h1>
+
+        <!-- Phần thông tin sinh viên -->
+        <div class="info-card">
+            <table>
+                <tr>
+                    <td class="label">Họ và tên:</td>
+                    <td><strong>Vũ Hải Luân</strong></td>
+                </tr>
+                <tr>
+                    <td class="label">Mã số sinh viên:</td>
+                    <td><strong>1822041389</strong></td>
+                </tr>
+                <tr>
+                    <td class="label">Lớp:</td>
+                    <td>22DTH6</td>
+                </tr>
+                <tr>
+                    <td class="label">Link GitHub Repository:</td>
+                    <td><a href="https://github.com/BowLacLong/ThucHanhGit_1822041389" target="_blank">https://github.com/BowLacLong/ThucHanhGit_1822041389</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
